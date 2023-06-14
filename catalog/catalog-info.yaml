@@ -13,6 +13,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: python-web-app
+  namespace: tap-workload
   description: Python Flask Web App
   tags:
     - app-accelerator
