@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: demo-domain
+  namespace: tap-workload
   description: Demo Domain for Tanzu Application Platform
   annotations:
     "backstage.io/techdocs-ref": dir:.
@@ -38,6 +39,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: demo-app
+  namespace: tap-workload
   description: Demo Application for Tanzu Application Platform
   annotations:
     "backstage.io/techdocs-ref": dir:.
@@ -50,6 +52,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: demo-api
+  namespace: tap-workload
   description: The demo API for Tanzu Application Platform GUI
   links:
     - url: https://api.agify.io
