@@ -16,4 +16,4 @@ spec:
     git:
       url: https://github.com/rajks24/python-web-app.git
       ref:
-        branch: main
+        branch: dev
